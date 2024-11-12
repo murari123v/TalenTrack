@@ -1,24 +1,39 @@
-# Web Hiring Platform Application
+# TalenTrack - a Hiring portal
 
 
 
 ## Table of Contents
-1. [Objective](#objective)
-2. [Features](#features)
+1. [What is it](#What is it)
+2. [Installation](#installation)
 3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
+4. [Features](#features)
 
 
----
-Developer Detail:
 
-- Name: Ganesh Kumar
-- Branch : Chemical Engineering, NIT Jalandhar
-- Email: ganeshkr0811@gmail.com
+### What is it
 
-### Objective
+The **TalenTrack** is a user-friendly React application where an admin can manage job postings, track candidates who apply for those jobs, and create job-specific assessments. The platform will help streamline the hiring process by allowing admins to post jobs, review candidate details, and assign tailored assessments for each open position.
 
-The **Web Hiring Platform Application** is a React-based solution designed to help streamline the hiring process by providing an intuitive interface for job posting, candidate tracking, and assessment management. The platform allows an admin to manage job listings, track applicants, and create job-specific assessments, all within a user-friendly environment.
+
+
+### Installation
+
+To run the application locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/murari123v/TalenTrack.git
+   cd TalenTrack
+
+2. **Add node modules**:
+   ```bash
+     npm install
+   
+3. **to run locally**:
+   ```bash
+      npm run dev
+
+
 
 ### Features
 
@@ -28,6 +43,7 @@ The **Web Hiring Platform Application** is a React-based solution designed to he
      - Job description
      - Number of candidates who applied
    - Admin can add, edit, or delete job postings as needed.
+
 
 2. **Candidate Tracking & Details Page**:
    - A detailed view of candidates applying for each job:
@@ -39,37 +55,17 @@ The **Web Hiring Platform Application** is a React-based solution designed to he
 
 3. **Job-Specific Test/Assessment Creation**:
    - Admins can create unique, job-specific assessments:
-     - Choose a job from a dropdown list
-     - Create a multiple-choice assessment for the selected position
+     - Select a job from a dropdown menu to associate it with an assessment.
+     - Multiple-choice assessment for the selected position
      - Add, edit, or delete questions and answers as needed
-   - Ensures each job listing has a distinct assessment.
+   -  each job has a distinct, custom assessment.
 
 4. **User Interface & User Experience**:
-   - A responsive, desktop, and mobile-friendly interface
-   - Consistent and intuitive design using a UI library (e.g., Material-UI, Ant Design)
-   - Modular, clean code adhering to React best practices
-   - Efficient state management using Redux or React Context API
+   - A responsive interface optimized for both desktop and mobile views.
+   - Clean, consistent design utilizing Tailwind CSS.
+   - Efficient state management using React Context API
 
 ### Tech Stack
 
-- **Frontend**: React, React Router, Redux, Typescript (or React Context API)
-- **UI Library**: Material-UI or Ant Design for a polished, consistent look
-
-
-### Installation
-
-To run the application locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ganeshkr0811/Web-Hiring-Platform-Application
-   cd web-hiring-platform
-
-2. **Add node modules**:
-   ```bash
-     npm install
-   
-3. **to run locally**:
-   ```bash
-      npm run dev
-
+- **Frontend**: React, React Router, React Context API
+- **UI Library**: Tailwind CSS for a polished, consistent look
