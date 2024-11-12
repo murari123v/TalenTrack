@@ -3,15 +3,14 @@
 
 
 ## Table of Contents
-1. [What is it](#What is it)
+1. [About](#About)
 2. [Installation](#installation)
 3. [Tech Stack](#tech-stack)
 4. [Features](#features)
 
 
 
-### What is it
-
+### About
 The **TalenTrack** is a user-friendly React application where an admin can manage job postings, track candidates who apply for those jobs, and create job-specific assessments. The platform will help streamline the hiring process by allowing admins to post jobs, review candidate details, and assign tailored assessments for each open position.
 
 
